@@ -1,0 +1,239 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 6}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "flex" : "LR",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "CD884FF3-019E-454F-B773-D1B92C769D81",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Circuit ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 105}, {73, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "71FC7718-3B9C-4839-A44F-8F884C5B28D1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Default reps",
+          "number_of_lines" : 2,
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 109}, {33, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "52790263-2801-4BC3-9B1E-BB9F2E241B4B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "def_reps",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 108}, {186, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "BD26603A-34EE-4835-9A37-5EA886EBFC6E",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "reps_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 155}, {73, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C960B64A-C891-4A12-BC7B-97EC28888F03",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Exercises",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 155}, {227, 267}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "36251524-0F4F-4C92-8740-B911177EEF7F",
+          "editing" : true,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "row_height" : 28,
+          "class" : "TableView",
+          "name" : "tableview1",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {46, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "image_name" : "iob:chevron_left_24",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.140351,0.426901,1.000000,1.000000)",
+          "title" : "",
+          "uuid" : "26C64F1B-EE88-4473-B8E1-997BF828312A",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "back_button"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 442}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LRTB",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.140351,0.426901,1.000000)",
+          "title" : "Cancel",
+          "uuid" : "20FA4140-4588-454C-9E35-2A48791E8C4A",
+          "class" : "Button",
+          "name" : "cancel_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 442}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LRTB",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.140351,0.426901,1.000000,1.000000)",
+          "title" : "Save",
+          "uuid" : "2FF5A509-B427-499C-AF01-F9D04E249536",
+          "class" : "Button",
+          "name" : "save_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 65}, {73, 30}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "FFBC4F60-C5EB-4AAB-B699-48CA48CAA4B3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Name",
+          "name" : "label4",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 65}, {173, 30}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "name_field",
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "EA190107-F6FE-42C2-B4D4-3FD140563902",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{268, 65}, {46, 30}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Dismiss kb",
+          "uuid" : "9C53FDC8-4225-437F-9F1E-FF4F73FFB046",
+          "class" : "Button",
+          "name" : "dkb_button",
+          "font_size" : 8
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "custom_class" : "EditCircuit",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 61}, {194, 28}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "LR",
+          "segments" : "Run|Edit",
+          "frame" : "{{324, 498}, {120, 29}}",
+          "action" : "run_edit_selection_changed",
+          "uuid" : "4A1E6160-6ED5-40BA-A977-E675F67A7C7B",
+          "class" : "SegmentedControl",
+          "corner_radius" : 8,
+          "name" : "segmentedcontrol1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 123}, {308, 351}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "",
+          "row_height" : 44,
+          "frame" : "{{284, 412}, {200, 200}}",
+          "data_source_number_of_lines" : 1,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "class" : "TableView",
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "uuid" : "72EF8E76-22E9-46E2-8903-2FC6C6186FB9",
+          "name" : "tableview1"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 6}, {172, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "flex" : "LR",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "3185E278-C6F9-4E47-856F-0D19F16047B7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Exercise Metronome ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

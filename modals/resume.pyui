@@ -1,0 +1,150 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 6}, {302, 63}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "title",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "02609ECA-C5A4-4762-9BF6-27A5B9BA5A8E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Resuming",
+          "number_of_lines" : 2,
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{58, 166}, {68, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "WLRB",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Resume",
+          "uuid" : "10863849-BCAC-421F-B3C3-D8D4C1ACBA3F",
+          "border_color" : "RGBA(0.806604,0.806604,0.806604,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "resume_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{126, 166}, {72, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "WLRB",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Back up",
+          "uuid" : "613FF163-3E48-49F2-BDA1-D88A11A9CC89",
+          "border_color" : "RGBA(0.804245,0.804245,0.804245,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "backup_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{198, 166}, {64, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "WLRB",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Restart",
+          "uuid" : "22ED0872-1D8F-4A67-AC75-DE87FAEF4045",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.806604,0.806604,0.806604,1.000000)",
+          "name" : "restart_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 247}, {38, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "A95FE868-A16E-4726-B66C-DFC6E7D3FA06",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "bu_reps",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{58, 245}, {256, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 143}, {200, 34}}",
+          "uuid" : "380EF52E-11C2-44B7-BF81-914AF53CDE54",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "bur_slider"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{109, 212}, {102, 25}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "font_size" : 12,
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "93B38555-81E9-4D9A-83AC-5047891B7399",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Reps to back up",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

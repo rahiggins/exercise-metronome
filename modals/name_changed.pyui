@@ -1,0 +1,116 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{45, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "A135C94D-3380-4761-A8F6-99449EC8060A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Name changed",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 108}, {66, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.140351,0.426901,1.000000)",
+          "title" : "Cancel",
+          "uuid" : "AD7A4541-9440-484B-832D-2A0B06D2630A",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.804245,0.804245,0.804245,1.000000)",
+          "name" : "r_cancel",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{72, 108}, {64, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Rename",
+          "uuid" : "2836B969-D7AA-4C56-9707-A3BAD95D2AAC",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.804245,0.804245,0.804245,1.000000)",
+          "name" : "r_rename",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{135, 108}, {99, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Save as new",
+          "uuid" : "8A6ACFC5-E088-4C2F-B7E5-A4C34AFF78CA",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.806604,0.806604,0.806604,1.000000)",
+          "name" : "r_new",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 148}, {228, 86}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LRB",
+          "name" : "replace_explanation",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "C981AAEA-616F-4A38-B7B9-885EA728AD80",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 12,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

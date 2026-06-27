@@ -1,0 +1,132 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{45, 6}, {230, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLRB",
+          "name" : "circuit_name",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "8C5AA9F0-2735-4F8A-9344-B90A6B4EEE1A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 36,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 63}, {260, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "25EFA40C-A029-4519-B415-0114134CB743",
+          "font_size" : 32,
+          "corner_radius" : 0,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "border_width" : 0,
+          "alignment" : "center",
+          "alpha" : 1,
+          "text" : "",
+          "font_name" : "<System-Bold>",
+          "class" : "Label",
+          "name" : "exercise_name",
+          "flex" : "WB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{85, 173}, {150, 150}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "countdown",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "B9FAED87-3B46-4A62-A492-7EF186A4B3BA",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 100,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 365}, {108, 108}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LR",
+          "font_size" : 15,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "l",
+          "uuid" : "E3B0D9DA-664E-42AD-B347-89DB81F0CAB0",
+          "class" : "Button",
+          "name" : "pause_play_button",
+          "image_name" : "iob:ios7_pause_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {29, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "name" : "back_button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "1C288960-1CD9-4FFF-A2AD-F1822A06A8DB",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_arrow_left_24"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 481}, {108, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "resuming_label",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "E3093D6C-D657-4F8A-8049-17C34F4F2527",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 640}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : ""
+    },
+    "selected" : false
+  }
+]

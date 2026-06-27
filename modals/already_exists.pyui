@@ -1,0 +1,77 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {228, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "5E9A8821-435D-4CED-8A46-875A8220F941",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "already exists",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{40, 107}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRTB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.140351,0.426901,1.000000)",
+          "title" : "Cancel",
+          "uuid" : "FE5EB860-8971-41ED-B8E9-AF34E7889B02",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.806604,0.806604,0.806604,1.000000)",
+          "name" : "ae_cancel",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 107}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRTB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(0.140351,0.426901,1.000000,1.000000)",
+          "title" : "Replace",
+          "uuid" : "5873986C-3B86-4179-8FE0-3E1796947AD3",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.804245,0.804245,0.804245,1.000000)",
+          "name" : "ae_replace",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

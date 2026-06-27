@@ -1,0 +1,418 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 57}, {50, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "sd_name",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "840108C2-D414-4C83-81C4-95FD1581C522",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Name",
+          "number_of_lines" : 2,
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 6}, {80, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "name" : "label1",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "162E1863-4EF5-4DD1-816C-DDCE7A35AEF2",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Exercise",
+          "custom_attributes" : "",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 57}, {197, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7E005198-D5E6-48AC-B9C3-A2449832C126",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "name_field",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 97}, {50, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "58AC2B45-0FD8-4333-98B1-C2854DCBA6D5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Reps",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 97}, {34, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 8,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "D6AF469A-6AAB-4875-864D-7F82A6B91175",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Use routine default ",
+          "number_of_lines" : 3,
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 96}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{135, 225}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch1",
+          "uuid" : "0DAE9704-3F5C-45A0-962A-55F5C7197EA7"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{195, 96}, {43, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label4",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "AF4D719A-B89E-454D-99A9-9E42A873B72B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Use slider",
+          "number_of_lines" : 2,
+          "font_size" : 10,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 139}, {34, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "num_reps",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "976C5E87-CBB1-4D8E-8EF1-E3230A0F7F07",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 139}, {186, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 223}, {200, 34}}",
+          "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+          "uuid" : "E30E3BB2-9EB7-4E17-9188-740D1DC6E72B",
+          "class" : "Slider",
+          "value" : 0,
+          "name" : "r_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 181}, {50, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 1,
+          "name" : "label5",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "379033F6-AB22-4721-9CB5-3EE96290F77F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Start delay",
+          "number_of_lines" : 2,
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 189}, {40, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "sd_interval",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "955EAB8A-22B2-4BBF-90D0-E6B5EB8662B7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 189}, {186, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 223}, {200, 34}}",
+          "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+          "uuid" : "C51165B6-0609-46D4-BFCA-B7A21F183564",
+          "class" : "Slider",
+          "value" : 0,
+          "name" : "sd_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 237}, {44, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label6",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A4D8D1A5-676B-4E4D-A46C-67A99BC64455",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Hold",
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 239}, {40, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "F8AB4238-25B2-4B81-A436-C2DA45BCE68E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "h_interval",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{128, 237}, {186, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 223}, {200, 34}}",
+          "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+          "uuid" : "66B618FB-DA84-4936-A704-4B202F4B8A5E",
+          "class" : "Slider",
+          "value" : 0,
+          "name" : "h_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 279}, {68, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "DC2D9AEB-FD2F-4985-9897-A3D17272459A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Cadence",
+          "name" : "label7",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{82, 279}, {40, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "c_interval",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "3F01CB0A-04AE-47B3-A903-E922EAA7C7B2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{130, 279}, {184, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "frame" : "{{60, 223}, {200, 34}}",
+          "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+          "uuid" : "C654A8A8-7383-425E-8596-4D74044C2129",
+          "class" : "Slider",
+          "value" : 0,
+          "name" : "c_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 409}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LRT",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.140351,0.426901,1.000000)",
+          "title" : "Cancel",
+          "uuid" : "78974E11-5C78-4108-B28B-C4F63EDF45ED",
+          "class" : "Button",
+          "name" : "cancel_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 409}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LRT",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Save",
+          "uuid" : "AC278ED3-1017-49FA-B0BD-2E9632B8B15E",
+          "border_color" : "RGBA(0.007200,0.136792,0.007200,1.000000)",
+          "class" : "Button",
+          "name" : "save_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {34, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "image_name" : "iob:chevron_left_24",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+          "title" : "",
+          "uuid" : "10F07AF0-27FC-4064-8E5D-07C00B5B8C2C",
+          "class" : "Button",
+          "name" : "back_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{269, 57}, {45, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Dismiss kb",
+          "uuid" : "2AFB35AE-1E19-4904-A11F-832C3F0FA590",
+          "class" : "Button",
+          "name" : "dkb_button",
+          "font_size" : 8
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "custom_class" : "EditExercise",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.298246,0.532164,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

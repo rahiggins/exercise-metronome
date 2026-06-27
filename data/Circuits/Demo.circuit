@@ -1,0 +1,8 @@
+{
+    "circuit_name": "Demo",
+    "default_reps": 3,
+    "exercises": [
+        "Demo Exercise 1",
+        "Demo Exercise 2"
+    ]
+}

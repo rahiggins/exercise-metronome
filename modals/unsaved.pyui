@@ -1,0 +1,77 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{45, 6}, {150, 52}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LR",
+          "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "923AA0CA-045F-4ADA-B0F6-15033A7AA45C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Going back with unsaved changes",
+          "number_of_lines" : 2,
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{40, 104}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRTB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.140351,0.426901,1.000000)",
+          "title" : "Cancel",
+          "uuid" : "A48C539F-46E3-4F42-8447-4D25ABA34747",
+          "border_color" : "RGBA(0.806604,0.806604,0.806604,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 1,
+          "name" : "un_cancel",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{120, 104}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WLRTB",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Discard",
+          "uuid" : "B400BA18-B2D8-4E28-9AC5-7B10959A8531",
+          "border_color" : "RGBA(0.808962,0.808962,0.808962,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 1,
+          "name" : "un_discard",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
